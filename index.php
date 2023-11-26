@@ -1,46 +1,96 @@
+<!DOCTYPE html>
 <html>
+<head>
+  <title>[ ChienPc ] - Key Tools ATGT</title>
+  <style>
+    .container {
+      display: flex;
+      width: 100%;
+    }
+    
+    .section {
+      flex: 1;
+      border: 1px solid #000;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .tieude {
+      display: flex;
+      width: 40%;
+      margin: 0 auto; /* Để căn giữa tiêu đề */
+    }
+    
+    .tieude1 {
+      flex: 1;
+      border: 1px solid #ff0a2a;
+      color: #6de41e;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .tai-khoan {
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+  </style>
+</head>
 <body>
-<br>
-<br>
-<br>
-<br>
-<b>
-<span style="font-family: Impact">
-<h1><center><span style="font-size:120px">CẢM ƠN BẠN</span></center></h1>
-</span>
-</b>
-<br>
-<center>
-<img src="https://gifimage.net/wp-content/uploads/2017/11/gambar-gif-doraemon-8.gif" style=“width:250px;height:250px;”>
-</center>
-<br>
-<br>
-<span style="font-family: Comic Sans MS">
-<span style="font-size:24px">
-<?php
- 
-        $key = $_GET['key'];
-        
-        
-        
-       
+  <center>
+    <div class="tieude">
+      <div class="tieude1">
+        <h2>Hệ Thống Quản Lý Key Tools ATGT</h2>
+      </div>
+    </div>
+</br>
+  </center>
 
- echo "<center>";
- echo "Chúc Bạn Ngày Mới Tốt lành "<br>";
- echo "API Key Ngày ";
- echo date('d/m/Y');
- echo " Là: "; echo "<br><b>";
- echo $key; echo "</b>";
- echo "<br>";
- echo "<br>";
- echo "<br>";
-echo "</center>";
-?>
-</span>
-</span>
-<span style="font-family: Comic Sans MS">
-<h><center><span style="font-size:15px">Copyright ©2022 | YOUTUBE :<a href="https://youtube.com/c/Tr%C6%B0%C6%A1ngTu%E1%BA%A5nT%C3%BA "> Trương Tuấn Tú </a></span></center></h>
-</span>
+  <div class="container">
+    <div class="section">
+      <!-- Phần 1 -->
+      <h2>Trang 1</h2>
+      <div class="tai-khoan">
+        <div id="key">Key : ChienPc</div>
+        <div id="ipv4">Key : 192.168.56.1</div>
+      </div>
+      <div class="tai-khoan">
+        <div id="key">Key : ChienPc</div>
+        <div id="ipv4">Key : 192.168.56.1</div>
+      </div>
+      <div class="tai-khoan">
+        <div id="key">Key : ChienPc</div>
+        <div id="ipv4">Key : 192.168.56.1</div>
+      </div>
+      <div class="tai-khoan">
+        <div id="key">Key : ChienPc</div>
+        <div id="ipv4">Key : 192.168.56.1</div>
+      </div>
+      <div class="tai-khoan">
+        <div id="key">Key : ChienPc</div>
+        <div id="ipv4">Key : 192.168.56.1</div>
+      </div>
+    </div>
+    <div class="section">
+      <!-- Phần 2 -->
+      <h2>Trang 2</h2>
+      <p>Nội dung của phần 2 ở đây...</p>
+      <div class="tai-khoan">
+        <h3>Tài khoản của tôi</h3>
+        <!-- Nội dung tài khoản -->
+        <p>Thông tin về tài khoản của bạn...</p>
+      </div>
+    </div>
+    <div class="section">
+      <!-- Phần 3 -->
+      <h2>Trang 3</h2>
+      <p>Nội dung của phần 3 ở đây...</p>
+      <div class="tai-khoan">
+        <h3>Tài khoản của tôi</h3>
+        <!-- Nội dung tài khoản -->
+        <p>Thông tin về tài khoản của bạn...</p>
+      </div>
+    </div>
+  </div>
 </body>
-
 </html>
